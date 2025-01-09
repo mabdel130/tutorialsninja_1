@@ -1,0 +1,15 @@
+pages\P11_CompareListPage.class
+pages\P01_HomePage.class
+pages\P09_ShoppingCartPage.class
+pages\P05_CurrencyPage.class
+pages\P08_TagPage.class
+pages\P10_WishlistPage.class
+pages\P07_FilterPage.class
+pages\P02_LoginPage.class
+util\Utlity.class
+pages\P12_OrderPage.class
+pages\P04_LogoutPage.class
+pages\P06_CategoryPage.class
+pages\P04_SearchPage.class
+pages\P03_RegistrationPage.class
+pages\P03_ResetPasswordPage.class

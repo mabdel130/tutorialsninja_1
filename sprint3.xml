@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sprint3" parallel="tests" thread-count="3">
+    <parameter name="browsername" value=""/>
+    <test name="Validate AddToCart">
+        <classes>
+            <class name="testcases.T10_AddToCart">
+                <methods>
+                    <include name="addToCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Validate AddToWishlist">
+        <classes>
+            <class name="testcases.T11_AddToWishlist">
+                <methods>
+                    <include name="addToWishlist"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Validate AddToCompareList">
+        <classes>
+            <class name="testcases.T12_AddToCompareList">
+                <methods>
+                    <include name="addToCompareList"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Validate CreateOrder">
+        <classes>
+            <class name="testcases.T13_CreateOrder">
+                <methods>
+                    <include name="createOrderTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

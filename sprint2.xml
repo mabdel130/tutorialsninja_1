@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sprint2" parallel="tests" thread-count="2">
+    <parameter name="browsername" value=""/>
+    <test name="Validate SelectMainCategory">
+        <classes>
+            <class name="testcases.T08_SelectMainCategory">
+                <methods>
+                    <include name="testLoginAndHoverRandomCategory"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Validate SubCategoryHover">
+        <classes>
+            <class name="testcases.T09_SubCategoryHover">
+                <methods>
+                    <include name="selectTag"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

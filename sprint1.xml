@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sprint1" parallel="tests" thread-count="1">
+    <parameter name="browsername" value=""/>
+    <test name="Validate Register">
+        <classes>
+            <class name="testcases.T02_Register">
+                <methods>
+                    <include name="register_with_valid_data"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Validate Login">
+        <classes>
+            <class name="testcases.T03_Login">
+                <methods>
+                    <include name="user_can_login_With_Valid_Data"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Validate Reset Password">
+        <classes>
+            <class name="testcases.T05_ResetPassword">
+                <methods>
+                    <include name="resetPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Validate Search Product">
+        <classes>
+            <class name="testcases.T06_SearchProduct">
+                <methods>
+                    <include name="searchForProduct"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Validate SwitchCurrency">
+        <classes>
+            <class name="testcases.T07_SwitchCurrency">
+                <methods>
+                    <include name="switchCurrency"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

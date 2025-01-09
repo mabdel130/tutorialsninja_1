@@ -1,0 +1,13 @@
+testcases\T11_AddToCompareList.class
+testcases\T06_SelectCategory.class
+testcases\T10_AddToWishlist.class
+testcases\T12_CreateOrder.class
+testcases\T01_Register.class
+testcases\T02_Login.class
+testcases\T05_SwitchCurrency.class
+testcases\T08_SelectTag.class
+testcases\T09_AddToCart.class
+testcases\T03_ResetPassword.class
+testcases\BaseTest.class
+testcases\T04_SearchProduct.class
+testcases\T07_FilterWithColor.class
