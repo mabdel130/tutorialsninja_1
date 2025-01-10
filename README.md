@@ -21,11 +21,11 @@ experience. This repository contains the source code, configuration, and documen
 
 ### Local testing execution example
 
-![Local testing execution example](Sequntial execution.gif)
+![Local testing execution example](sequntialexecution.gif)
 
 ### Parallel testing execution example
 
-![Parallel testing execution example](Parallel execution.gif)
+![Parallel testing execution example](parallelexecution.gif)
 
 ## Features
 

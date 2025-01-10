@@ -44,12 +44,8 @@ public class DriverFactory {
                 prefs.put("credentials_enable_service", false);
                 prefs.put("profile.password_manager_enabled", false);
                 prefs.put("profile.default_content_setting_values.notifications", 2);
-                // Disable Chrome automation detection
                 chromeOptions.addArguments("--disable-blink-features=AutomationControlled");
                 chromeOptions.setExperimentalOption("useAutomationExtension", false);
-                // Disable loading images for faster crawling
-                chromeOptions.addArguments("--blink-settings=imagesEnabled=false");
-                // Optionally add more obfuscation, like custom user agent
                 chromeOptions.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36");
                 chromeOptions.addArguments("start-maximized");
                 chromeOptions.addArguments("--incognito");
