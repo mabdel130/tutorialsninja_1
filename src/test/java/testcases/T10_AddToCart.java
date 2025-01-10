@@ -32,6 +32,7 @@ public class T10_AddToCart extends T01_BaseTest {
         cartPage.addToCart();
         softAssert.assertTrue(true, "Success: You have added iPhone to your shopping cart!");
         softAssert.assertAll();
+        // New Actions
     }
 }
 
