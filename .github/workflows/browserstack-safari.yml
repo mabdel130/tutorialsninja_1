@@ -31,9 +31,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven
 
-      # Step 4: Install dependencies (if Maven is used)
-      - name: Install Dependencies
-        run: mvn install
 
       # Step 5: Run the tests
       - name: Run Tests on BrowserStack Safari
