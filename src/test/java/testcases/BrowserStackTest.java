@@ -1,10 +1,10 @@
 package testcases;
-
+import java.net.URL;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-public class BrowserStackTest {
+public class BrowserStackTest extends T01_BaseTest {
         public static final String USERNAME = System.getenv("BROWSERSTACK_USERNAME");
         public static final String ACCESS_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");
         public static final String URL = "https://" + USERNAME + ":" + ACCESS_KEY + "@hub-cloud.browserstack.com/wd/hub";
