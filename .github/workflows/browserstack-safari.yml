@@ -3,7 +3,7 @@ name: Run Automation Tests on Safari
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
 
 jobs:
